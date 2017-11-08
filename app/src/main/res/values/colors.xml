@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#E95C5D</color>
+    <color name="colorPrimaryDark">#FE8F3E</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="login_background">#E3E1E4</color>
+    <color name="login_board">#F9F5F7</color>
+    <color name="reset_button_color">#E9E7EA</color>
 </resources>

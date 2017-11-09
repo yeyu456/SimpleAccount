@@ -27,7 +27,7 @@
                 android:maxEms="@integer/max_input_length"
                 android:maxLines="@integer/max_input_line"
                 android:inputType="textPersonName"
-                android:drawableLeft="@drawable/account_icon"
+                android:drawableStart="@drawable/account_icon"
                 android:gravity="center"/>
         </LinearLayout>
         <LinearLayout
@@ -41,7 +41,7 @@
                 android:ems="@integer/input_length"
                 android:maxEms="@integer/max_input_length"
                 android:maxLines="@integer/max_input_line"
-                android:drawableLeft="@drawable/password_icon"
+                android:drawableStart="@drawable/password_icon"
                 android:inputType="textPassword"/>
         </LinearLayout>
         <LinearLayout

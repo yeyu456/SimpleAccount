@@ -4,15 +4,58 @@
     android:layout_height="match_parent">
 
     <HorizontalScrollView
-        android:id=""
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="20dp">
+            <RelativeLayout
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/account_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/account_icon" />
+                <TextView
+                    android:layout_below="@id/account_image"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="一二三四五六七"/>
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/account_icon" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/account_icon" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/account_icon" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/ic_lock_white_48dp"/>
+        </LinearLayout>
     </HorizontalScrollView>
     <HorizontalScrollView
+        android:id="@+id/account_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-
     </HorizontalScrollView>
 </LinearLayout>
